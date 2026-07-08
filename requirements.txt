@@ -1,0 +1,18 @@
+# Telegram ingest bot
+aiogram>=3.4
+
+# Config / env
+python-dotenv>=1.0
+
+# HTTP (LLM APIs)
+requests>=2.31
+
+# Speech-to-text (also pulls in torch; ffmpeg must be installed system-wide)
+openai-whisper>=20231117
+
+# Google Sheets tracker (optional feature)
+gspread>=6.0
+google-auth>=2.28
+
+# Telegram channel publishing (optional feature)
+telethon>=1.34
